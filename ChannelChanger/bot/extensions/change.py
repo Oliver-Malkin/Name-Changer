@@ -11,16 +11,6 @@ flag = 1
 
 CHANNEL_ID = 430424765337960449
 
-"""
-@plugin.command
-@lightbulb.option("name", "New name for the channel")
-@lightbulb.command("change", "change the name for the memes channel")
-@lightbulb.implements(lightbulb.SlashCommand)
-async def change(ctx: lightbulb.SlashContext) -> None:
-    await plugin.bot.rest.edit_channel(CHANNEL_ID, name=ctx.options.name)
-    await ctx.respond("done")
-"""
-
 @plugin.command
 @lightbulb.command("switch", "Manually advance the name of the memes channel")
 @lightbulb.implements(lightbulb.SlashCommand)
