@@ -7,7 +7,7 @@ from datetime import timezone
 plugin = lightbulb.Plugin("changer")
 
 names = ("🕴️-jacobs-fun-house", "🕴️-okeh-boom-ray")
-flag = 1
+flag = 0
 
 CHANNEL_ID = 430424765337960449
 
